@@ -1,0 +1,100 @@
+.c {
+height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.c-left{
+    flex: 1;
+    align-items: center;
+    margin-left: 20%;
+    justify-content: center;
+}
+
+.c-title{
+    font-size: 50px;
+}
+
+.c-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 10%;
+    height: 100%;
+}
+
+
+.c-card.bg {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: #333;
+}
+
+.c-card {
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    background-color: #4285F4;
+}
+
+.social-tag{
+    padding-top: 30%;
+    padding-left: 20%;
+    color: black;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+.icon{
+    margin-top: 20%;
+    margin-left: 12%;
+    height: 60px !important;
+    width: 180px !important;
+}
+
+.social-title{
+    font-size: 30px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    color: black;
+}
+
+
+@media screen and (max-width:480px) {
+    .c{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    }
+
+    .c-left {
+    width: 100%;
+    }
+
+    .c-card {
+    height: 30vh;
+    }
+
+    .c-card.bg {
+    display: none;
+    }
+
+    .c-right{
+    padding: 20px;
+    }
+}
