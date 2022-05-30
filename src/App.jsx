@@ -1,6 +1,6 @@
 import Intro from "./components/intro/intro";
 import About from "./components/about/about";
-import ProjectList from "./components/projectList/projectList"
+import ProjectList from "./components/projectList/projectList";
 
 const App = () => {
   return <div>
