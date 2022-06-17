@@ -15,6 +15,6 @@ export const products = [
       id: 3,
       img: "https://i.gifer.com/VSQt.gif",
       link: "https://github.com/srijan-singh/social-media",
-      desc: "Social Media app using MERN stack, backend is 75% completed.",
+      desc: "Social Media app using MERN stack, backend is 100% completed.",
     },
   ];
